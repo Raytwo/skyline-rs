@@ -10,8 +10,8 @@ readme = "README.md"
 
 [dependencies]
 skyline_macro = { path = "./skyline_macro", version = "0.2.1" }
-nnsdk = "0.5.0"
-libc-nnsdk = "0.4.0"
+nnsdk = { git = "https://github.com/Raytwo/nnsdk-rs", branch="libc-fix" }
+libc-nnsdk = { git = "https://github.com/Raytwo/libc-nnsdk", branch="core" }
 
 [features]
 default = ["std"]

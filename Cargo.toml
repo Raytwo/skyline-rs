@@ -1,6 +1,6 @@
 [package]
 name = "skyline"
-version = "0.5.1"
+version = "0.6.0"
 authors = ["jam1garner <jam1.mcleod@hotmail.com>"]
 edition = "2018"
 license = "MIT"
@@ -10,8 +10,8 @@ readme = "README.md"
 
 [dependencies]
 skyline_macro = { path = "./skyline_macro", version = "0.2.1" }
-nnsdk = "0.5.0"
-libc-nnsdk = "0.4.0"
+nnsdk = "0.6.0"
+libc-nnsdk = "0.5.0"
 
 [features]
 default = ["std"]
